@@ -1,0 +1,26 @@
+.breadcrumb{
+	padding: 5px 30px;
+}
+
+.breadcrumb_row{
+	padding: 0;
+	margin: 0;
+}
+
+.breadcrumb_link{
+	text-decoration: none;
+	vertical-align: top;
+	color: var(--theme-gray);
+	cursor: pointer;
+}
+
+.breadcrumb_link:hover{
+	color: var(--theme-blue);
+}
+
+.breadcrumb-saperator{
+	color: var(--theme-blue);
+	padding: 0 5px;
+	font-size: 18px;
+	vertical-align: top;
+}

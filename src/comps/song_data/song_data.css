@@ -1,0 +1,122 @@
+.song_area1{
+	display: flex;
+}
+
+.song_image_block{
+	width: 250px;
+	height: 250px;
+	min-width: 250px;
+	min-height: 250px;
+	margin-right: 10px;
+	overflow: hidden;
+}
+
+.song_image{
+	height: 100%;
+}
+
+.song_meta{
+	flex-grow: 2;
+}
+
+.song_title_block{
+	background-image: linear-gradient(to right, #079992, #60a3bc);
+	overflow: hidden;
+	border-radius: 4px;
+}
+
+.song_title_icon{
+	margin-right: 10px;
+	color: var(--theme-gray);
+}
+
+.song_title{
+	padding: 4px 10px;
+	margin: 0;
+	font-family: 'Yeon Sung', cursive;
+	font-size: 22px;
+	color: var(--theme-white);
+	font-weight: 100;
+}
+
+.song_meta_details_block{
+	display: grid;
+	font-size: 17px;
+	padding: 0 10px;
+}
+
+.song_category{
+	margin: 8px 0 0 0;
+}
+
+.song_meta_icon{
+	color: var(--theme-pink);
+}
+
+.song_category_link{
+	color: var(--theme-blue);
+	text-decoration: none;
+}
+
+.song_category_link:hover{
+	color: var(--theme-gray);
+}
+
+.song_singer{
+	margin: 8px 0 0 0;
+
+}
+
+.song_singer_link{
+	color: var(--theme-blue);
+	text-decoration: none;
+}
+
+.song_singer_link:hover{
+	color: var(--theme-gray);
+}
+
+.song_upload_dt{
+	margin: 8px 0 0 0;
+
+}
+
+.song_album_name{
+	color: var(--theme-blue);
+	text-decoration: none;
+}
+
+.song_album_name:hover{
+	color: var(--theme-gray);
+}
+
+.uploaded_on_dt{
+	color: var(--theme-pink2);
+}
+
+.song_size{
+	margin: 8px 0 0 0;
+
+}
+
+.song_size_show{
+	color: var(--theme-pink2);
+}
+
+.song_length{
+	margin: 8px 0 0 0;
+
+}
+
+.song_length_show{
+	color: var(--theme-pink2);
+}
+
+.song_total_download{
+	margin: 8px 0 0 0;
+
+}
+
+.song_total_download_show{
+	color: var(--theme-pink2);
+}

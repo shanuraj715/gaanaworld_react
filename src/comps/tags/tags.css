@@ -1,0 +1,25 @@
+.tags{
+	text-align: center;
+}
+
+.tag-block{
+	margin: 5px auto;
+	display: inline-block;
+	max-width: 700px;
+	background-color: var(--theme-hover-color);
+	padding: 5px 20px;
+	text-align: left;
+	border: solid 1px var(--theme-blue);
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.tag_text{
+	padding: 2px 7px;
+	margin: 2px;
+	display: inline-block;
+	color: white;
+	border-radius: 4px;
+	background-color: var(--theme-gray);
+
+}

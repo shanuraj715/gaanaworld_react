@@ -1,0 +1,59 @@
+.new_upload_block{
+	overflow: hidden;
+	display: flex;
+	border-bottom: solid 1px var(--theme-gray);
+	padding: 5px 25px;
+	margin: 0 10px;
+}
+
+.new_upload_block:hover{
+	background-color: var(--theme-hover-color)
+}
+
+.new_upload_image_block{
+	width: 60px;
+	height: 60px;
+}
+
+.new_upload_song_music_icon{
+	font-size: 35px;
+	line-height: 58px;
+	color: #2d3436;
+}
+
+.new_upload_song_title{
+	padding: 0;
+	margin: 5px 0 3px 0;
+}
+
+.new_upload_link{
+	color: var(--theme-blue);
+	text-decoration: none;
+	font-size: 18px;
+}
+
+.new_upload_link:hover{
+	color: var(--theme-pink);
+}
+
+.new_upload_song_meta{
+	display: block;
+	/* padding: 5px 0; */
+}
+
+.new_uploads_category{
+	padding: 0 8px 0 0;
+	cursor: pointer;
+}
+
+.new_uploads_singer{
+	border-left: solid 2px var(--theme-gray);
+	padding: 0 8px;
+	cursor: pointer;
+}
+
+.new_uploads_size{
+	border-left: solid 2px var(--theme-gray);
+	padding: 0 8px;
+	cursor: pointer;
+}

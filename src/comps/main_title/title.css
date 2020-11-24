@@ -1,0 +1,14 @@
+.main_title_cont{
+	margin: 5px 0;
+	padding: 5px 15px;
+	background-image: linear-gradient(to right, var(--theme-pink), var(--theme-pink2));
+}
+
+.main_title{
+	margin: 0;
+	padding: 0;
+	font-family: 'Bubblegum Sans', cursive;
+	color: white;
+	font-size: 20px;
+	font-weight: 100;
+}

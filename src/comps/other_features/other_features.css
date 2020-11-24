@@ -1,0 +1,22 @@
+.other_features{
+
+}
+
+.other_features_block{
+	margin: 10px 15px;
+	display: inline-block;
+	border: solid 1px var(--theme-pink);
+	padding: 5px 15px;
+	border-radius: 5px;
+}
+
+.other-features-link{
+	text-decoration: none;
+	font-size: 18px;
+	color: var(--theme-gray);
+	cursor: pointer;
+}
+
+.other_features_block:hover{
+	background-color: var(--theme-pink2);
+}

@@ -1,0 +1,12 @@
+.page_description_block{
+	text-align: center;
+}
+
+.page_description{
+	padding: 4px;
+	margin: 0 auto;
+	max-width: 700px;
+	min-width: 500px;
+	text-align: left;
+	line-height: 22px;
+}

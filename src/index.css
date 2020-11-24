@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+/* font-family: 'Chewy', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
+/* font-family: 'Yeon Sung', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+/* font-family: 'Bubblegum Sans', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+
+
+:root{
+	--theme-pink: #B33771;
+	--theme-gray: #2d3436;
+	--theme-yellow: #fdcb6e;
+	--theme-white: #ecf0f1;
+	--theme-pink2: #FD7272;
+	--theme-blue: #0984e3;
+	--theme-hover-color: #d1ccc0;
+}
+
+body{
+	padding: 0;
+	margin: 0;
+	background-color: #ecf0f1;
+	min-width: 800px !important;
+}
+
+.text_center{
+	text-align: center;
+}
